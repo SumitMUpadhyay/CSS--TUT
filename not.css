@@ -1,0 +1,12 @@
+/* 
+:not()
+
+The :not() CSS peseudo-class represents elements that 
+do not match list of selectors,since it prevents
+specific items from being selected,
+
+ */
+
+ .special :not(h1){
+  color:red;
+ }
